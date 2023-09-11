@@ -18,7 +18,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <NavWrapper show>
+    <NavWrapper show={show}>
       <Logo>
         <img alt="Disney Plus logo" src="/images/logo.svg" onClick={() => (window.location.href = '/')} />
       </Logo>
