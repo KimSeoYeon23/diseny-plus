@@ -42,6 +42,7 @@ const NavWrapper = styled.nav`
   letter-spacing: 16px;
   z-index: 3;
 `;
+
 const Logo = styled.a`
   padding: 0;
   width: 80px;

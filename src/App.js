@@ -22,7 +22,7 @@ const Container = styled.main`
   top: 72px;
   padding: 0 calc(3.5vw + 5px);
 
-  &:after {
+  &::after {
     background: url('/images/home-background.png') center center / cover no-repeat fixed;
     content: '';
     position: absolute;
